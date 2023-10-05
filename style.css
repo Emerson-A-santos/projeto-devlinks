@@ -31,6 +31,7 @@ body {
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
+    height: 100vh;
 }
 
 #container {
@@ -149,4 +150,14 @@ ul li a:hover {
     justify-content: center;
     font-size: 14px;
     margin: 24px 0px;
+}
+/*media queries */
+@media (min-width: 700px) {
+    :root {
+        --bg-url: url(./assets/bg-desktop.jpg)
+    }
+
+    .light {
+        --bg-url: url(./assets/bg-desktop-light.jpg)
+    }
 }
